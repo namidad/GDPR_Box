@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial;
+}
+
+.container {
+  position: absolute;
+  z-index: 2;
+  top: calc(50% - 150px);
+  left: calc(50% - 300px);
+}
+
+.gdprBox {
+  width: 600px;
+  height: 300px;
+  background: white;
+  box-shadow: 0px 0px 20px rgba(68, 68, 68, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.gdprBox {
+  padding-top: 20px;
+}
+
+.btnSection {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 50px 20px 50px;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	border-radius:6px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:11px 71px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  border:1px solid crimson;
+}
